@@ -1,0 +1,15 @@
+{
+  "asset": "eurusd",
+  "winners": {
+    "0": "rf",
+    "1": "rf"
+  },
+  "models_saved": [
+    "/content/drive/MyDrive/FINAL_PROJECT_MLDL/data/processed/eurusd_regime0_rf.joblib",
+    "/content/drive/MyDrive/FINAL_PROJECT_MLDL/data/processed/eurusd_regime1_rf.joblib"
+  ],
+  "regimes": [
+    0,
+    1
+  ]
+}

@@ -1,0 +1,19 @@
+start_date: "2010-01-01"
+end_date: "2025-01-01"
+lookahead_days: 1 # next-day return sign
+indicators:
+  rsi: [14]
+  macd: { fast:12, slow:26, signal:9 }
+  bbands: { window:20, num_std:2 }
+  atr: [14]
+  vol_windows: [10, 20, 60]
+cv:
+  train_years: 5
+  test_years: 1
+  step_years: 1
+regimes:
+  n_clusters: [2, 3, 4]
+  method: ["kmeans", "gmm"]
+models:
+  baseline: ["rf", "xgb"]
+  per_regime: ["rf", "xgb", "lstm"]

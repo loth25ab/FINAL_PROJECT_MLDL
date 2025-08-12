@@ -1,0 +1,13 @@
+target:
+  name: "QQQ"
+  yf: "QQQ"
+  price_col: "Close"
+  tz: "America/New_York"
+secondary:
+  dxy: { yf: "DX-Y.NYB" }
+  gold: { yf: "GC=F" }
+  wti: { yf: "CL=F" }
+  vix: { yf: "^VIX" }
+  tnx: { yf: "^TNX" } # divide by 10 later
+bench: { yf: "SPY" }
+frequency: "1d"

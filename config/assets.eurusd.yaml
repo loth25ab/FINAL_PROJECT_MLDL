@@ -1,0 +1,13 @@
+target:
+  name: "EUR/USD"
+  yf: "EURUSD=X"
+  price_col: "Close"
+  tz: "UTC"
+secondary:
+  dxy: { yf: "DX-Y.NYB" } # dollar index (alt: "DX-Y.NYB")
+  gold: { yf: "GC=F" }
+  wti: { yf: "CL=F" }
+  vix: { yf: "^VIX" }
+  tnx: { yf: "^TNX" } # 10Y yield*10 on Yahoo; divide by 10
+bench: { yf: "SPY" }
+frequency: "1d"
