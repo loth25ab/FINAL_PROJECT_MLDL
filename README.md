@@ -9,5 +9,5 @@
 2) `02_features_regimes.ipynb` → features + **regime labels**  
 3) `03_models_baseline.ipynb` → global baseline  
 4) `04_models_per_regime.ipynb` → per-regime models  
-5) `05_models_LSTM.ipynb` (optional) → sequence model  
+5) `05_models_LSTM.ipynb` → sequence model  
 6) `06_backtest_eval.ipynb` → backtest
